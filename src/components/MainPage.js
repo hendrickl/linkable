@@ -12,7 +12,7 @@ const MainPage = () => {
 
       <div className="container">
         <div className="row vh-100">
-          <div className="col-12 col-sm-6 col-lg-5">
+          <div className="col-12 col-sm-6">
             <div className="card border-0">
               <div className="card-body pl-0">
                 <h3 className="card-tile">
@@ -75,14 +75,24 @@ const MainPage = () => {
                       />
                     </div>
                   </div>
+                  <button
+                    type="submit"
+                    className="btn btn-outline-secondary mb-2"
+                  >
+                    Validez
+                  </button>
                 </form>
               </div>
             </div>
           </div>
 
-          <div className="col-12 col-sm-6 col-lg-5 align-self-center">
+          <div className="col-12 col-sm-6 align-self-center">
             <div>
-              <img src={MainImg} alt="hands" />
+              <img
+                src={MainImg}
+                alt="hands"
+                className="img-fluid mx-auto d-block"
+              />
             </div>
           </div>
         </div>
