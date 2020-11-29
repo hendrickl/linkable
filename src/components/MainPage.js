@@ -36,7 +36,7 @@ const MainPage = () => {
               <img
                 src={MainProjetImg}
                 alt="three and money"
-                className="img-fluid mx-auto d-block"
+                className="img-fluid mx-auto d-block mb-3 mt-2"
               />
             </div>
           </div>
@@ -48,7 +48,7 @@ const MainPage = () => {
               <img
                 src={MainInvImg}
                 alt="holding hands"
-                className="img-fluid mx-auto d-block"
+                className="img-fluid mx-auto d-block mt-3"
               />
             </div>
           </div>
