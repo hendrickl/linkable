@@ -1,5 +1,5 @@
 import React from "react";
-import MainImg from "../lareised-leneseur.jpg";
+import MainImg from "../micheile-henderson.png";
 
 const MainPage = () => {
   return (
@@ -53,7 +53,7 @@ const MainPage = () => {
                     <textarea
                       className="form-control"
                       placeholder="Présentez votre initiative en quelques mots"
-                      id="floatingTextarea2"
+                      id="descriptiontextarea"
                       style={{ height: "100px" }}
                     ></textarea>
                   </div>
@@ -62,7 +62,7 @@ const MainPage = () => {
                       <input
                         type="number"
                         className="form-control"
-                        placeholder="Montant (KABLE)"
+                        placeholder="Montant (ETH)"
                         aria-label="Montant"
                       />
                     </div>
