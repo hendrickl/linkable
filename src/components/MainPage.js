@@ -64,22 +64,7 @@ const MainPage = () => {
               <div className="col-12 ">
                 <div className="card ">
                   <div className="card-body">
-                    <form>
-                      <div className="mb-2">
-                        <input
-                          type="number"
-                          className="form-control"
-                          placeholder="Donation (ETH)"
-                          aria-label="Donation"
-                        />
-                      </div>
-                      <button
-                        type="submit"
-                        className="btn btn-outline-secondary mb-2"
-                      >
-                        Validez
-                      </button>
-                    </form>
+                    <InvestForm />
                   </div>
                 </div>
               </div>
