@@ -14,8 +14,8 @@ contract Linkable {
     // _addressCreator: address of a project creator.
     address private _addressCreator;
 
-    // _addressInvest: address of an investissor.
-    address private _addressInvest;
+    // _addressInvest: address of an investor.
+    address private _addressInvestor;
 
     // _id is a counter of the number of projects.
     // _id is also a project ID.
@@ -39,6 +39,10 @@ contract Linkable {
     // _id => _addressProject
     mapping(uint256 => address) public projectAddr;
 
+    // creatorAddr: Mapping FROM an project address TO its creator address.
+    // _addressProject => _addressCreator
+    mapping(address => address) public creatorAddr;
+
     // projectId: Mapping FROM a registered project address TO an ID.
     // _addressProject => _id
     mapping(address => uint256) public projectId;
@@ -47,6 +51,8 @@ contract Linkable {
         _ownerLinkable = address(0x185D07b967ACD3b2600387656153b5725ddD01D7);
         _id = 0;
         projectAddr[_id] = _addressProject;
+        projectId[_addressProject] = _id;
+        creatorAddr[_addressProject] = _addressCreator;
     }
 
     function register() public {}
@@ -55,5 +61,5 @@ contract Linkable {
 
     function getAddrCreator() public {}
 
-    function donate() public {}
+    function donate() public payable {}
 }

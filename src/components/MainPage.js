@@ -1,5 +1,5 @@
 import React from "react";
-import ProjetForm from "./ProjetForm.js";
+import ProjectForm from "./ProjectForm.js";
 import InvestForm from "./InvestForm.js";
 import MainProjetImg from "../micheile-henderson.png";
 import MainInvImg from "../jena-jacobs.png";
@@ -26,7 +26,7 @@ const MainPage = () => {
 
             <div className="row">
               <div className="col-12">
-                <ProjetForm />
+                <ProjectForm />
               </div>
             </div>
           </div>

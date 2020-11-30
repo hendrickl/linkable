@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjetForm = () => {
+const ProjectForm = () => {
   return (
     <form>
       <div className="mb-2">
@@ -61,4 +61,4 @@ const ProjetForm = () => {
   );
 };
 
-export default ProjetForm;
+export default ProjectForm;
