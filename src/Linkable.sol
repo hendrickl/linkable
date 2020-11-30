@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
+pragma experimental ABIEncoderV2;
 import "@openzeppelin/contracts/math/SafeMath.sol";
 
 contract Linkable {
@@ -48,7 +49,7 @@ contract Linkable {
 
     // idtProject: Mapping FROM an ID TO the struct of a project.
     // _id => struct IdentityProject
-    mapping(uint256 => IdentityProject) public idtProject;
+    mapping(uint256 => IdentityProject) public identityProject;
 
     // projectAddr: Mapping FROM an ID TO the address affiliated with.
     // _id => _addressProject
@@ -92,7 +93,13 @@ contract Linkable {
         creatorAddr[addressProject_] = addressCreator_;
     }
 
-    function getDescription() public view {}
+    function getProject(uint256 id_)
+        public
+        view
+        returns (IdentityProject memory)
+    {
+        return identityProject[id_];
+    }
 
     function getAmount() public view {}
 
