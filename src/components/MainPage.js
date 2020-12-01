@@ -3,13 +3,21 @@ import ProjectForm from "./ProjectForm.js";
 import InvestForm from "./InvestForm.js";
 import MainProjetImg from "../micheile-henderson.png";
 import MainInvImg from "../jena-jacobs.png";
+import MainLogo from "../logo18x18.png";
 
 const MainPage = () => {
   return (
     <>
       <div className="navbar navbar-light bg-light">
-        <div className="container-fluid">
-          <span className="navbar-brand ml-4">Linkable</span>
+        <div className="container">
+          <span className="navbar-brand ml-2 text-secondary">
+            <img
+              src={MainLogo}
+              alt="linkable logo"
+              className="img-fluid ml-1 float-right"
+            />
+            Linkable
+          </span>
         </div>
       </div>
 
