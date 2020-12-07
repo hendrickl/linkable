@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectForm from "./ProjectForm.js";
 import InvestForm from "./InvestForm.js";
-import MainProjetImg from "../micheile-henderson.png";
-import MainInvImg from "../jena-jacobs.png";
-import MainLogo from "../logo18x18.png";
+import MainProjetImg from "../img/micheile-henderson.png";
+import MainInvImg from "../img/jena-jacobs.png";
+import MainLogo from "../img/logo18x18.png";
 
 const MainPage = () => {
   return (
@@ -50,7 +50,7 @@ const MainPage = () => {
           </div>
         </div>
 
-        <div className="row min-vh-100">
+        <div className="row min-vh-100 ">
           <div className="col-12 col-sm-6 align-self-center">
             <div>
               <img
