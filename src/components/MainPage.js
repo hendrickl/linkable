@@ -24,7 +24,7 @@ const MainPage = () => {
       <div className="container">
         <div className="row min-vh-100 border-bottom">
           <div className="col-12 col-sm-6">
-            <div className="card border-0">
+            <div className="card border-0 mt-3">
               <div className="card-body pl-0">
                 <h3 className="card-tile">
                   Donnez à votre projet la chance de pouvoir être financé.

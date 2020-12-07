@@ -1,7 +1,7 @@
 import React from "react";
 import { Linkable_address, Linkable_abi } from "./contracts/Linkable.js";
 import { useContract } from "web3-hooks";
-import Dapp from "./Dapp";
+import Dapp from "./Dapp.js";
 
 export const LinkableContext = React.createContext(null);
 

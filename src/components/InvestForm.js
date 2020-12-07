@@ -5,6 +5,7 @@ const InvestForm = () => {
     <form>
       <div className="form-check mb-4">
         <p>Projet :</p>
+        <p>Montant :</p>
         <input
           className="form-check-input"
           type="radio"
