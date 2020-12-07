@@ -11243,6 +11243,13 @@ web-vitals@^0.2.4:
   resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-0.2.4.tgz#ec3df43c834a207fd7cdefd732b2987896e08511"
   integrity sha512-6BjspCO9VriYy12z356nL6JBS0GYeEcA457YyRzD+dD6XYCQ75NKhcOHUMHentOE7OcVCIXXDvOm0jKFfQG2Gg==
 
+web3-hooks@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/web3-hooks/-/web3-hooks-1.0.3.tgz#78d8ed92c471d9842f8df949520cf99f0e224544"
+  integrity sha512-a0fxrFIXmm/H3HRExjJd9zT5Aon7RrFPK2qAIL6eCimbkPSfDo3SSEkLH6bUCUkdgQ7/V5Q1sq/t7hMIa+Me2A==
+  dependencies:
+    ethers "^5.0.23"
+
 webidl-conversions@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
