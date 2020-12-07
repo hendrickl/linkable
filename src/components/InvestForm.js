@@ -3,13 +3,17 @@ import React from "react";
 const InvestForm = () => {
   return (
     <form>
-      <div className="mb-2">
+      <div className="form-check mb-4">
+        <p>Projet :</p>
         <input
-          type="number"
-          className="form-control"
-          placeholder="Donation (ETH)"
-          aria-label="Donation"
+          className="form-check-input"
+          type="radio"
+          name="RadioForFund"
+          id="radioFund"
         />
+        <label className="form-check-label" htmlFor="radioFund">
+          Autorisez le déblocage des fonds
+        </label>
       </div>
       <button type="submit" className="btn btn-outline-secondary mb-2">
         Validez

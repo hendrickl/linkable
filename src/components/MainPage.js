@@ -64,13 +64,13 @@ const MainPage = () => {
             <div className="card border-0">
               <div className="card-body pl-0">
                 <h3 className="card-tile">
-                  Accompagnez un projet en le finançant en quelques clics.
+                  Financez ce projet en débloquant les fonds en quelques clics.
                 </h3>
               </div>
             </div>
             <div className="row">
               <div className="col-12 ">
-                <div className="card ">
+                <div className="card mb-3 mr-2">
                   <div className="card-body">
                     <InvestForm />
                   </div>

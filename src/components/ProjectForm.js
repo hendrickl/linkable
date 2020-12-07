@@ -2,26 +2,26 @@ import React from "react";
 
 const ProjectForm = () => {
   return (
-    <form>
+    <form className="mr-2">
       <div className="mb-2">
-        <label htmlFor="projet" className="form-label">
+        <label htmlFor="nameProject" className="form-label">
           Nom de votre projet
         </label>
         <input
           type="text"
           className="form-control"
-          id="nomprojet"
+          id="nameProject"
           placeholder="Nom de votre projet"
         />
       </div>
       <div className="mb-2">
-        <label htmlFor="porteur" className="form-label">
+        <label htmlFor="idtCreator" className="form-label">
           Porteur du projet
         </label>
         <input
           type="text"
           className="form-control"
-          id="identite"
+          id="idtCreator"
           placeholder="Nom et prénom"
         />
       </div>
@@ -32,7 +32,7 @@ const ProjectForm = () => {
         <textarea
           className="form-control"
           placeholder="Présentez votre initiative en quelques mots"
-          id="descriptiontextarea"
+          id="description"
           style={{ height: "100px" }}
         ></textarea>
       </div>
@@ -55,7 +55,7 @@ const ProjectForm = () => {
         </div>
       </div>
       <button type="submit" className="btn btn-outline-secondary mb-2">
-        Validez
+        Envoyez
       </button>
     </form>
   );
