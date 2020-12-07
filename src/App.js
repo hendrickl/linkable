@@ -1,8 +1,18 @@
 import React from "react";
-import MainPage from "./components/MainPage.js";
+import { Linkable_address, Linkable_abi } from "./contracts/Linkable.js";
+import { useContract } from "web3-hooks";
+import Dapp from "./Dapp";
+
+export const LinkableContext = React.createContext(null);
 
 function App() {
-  return <MainPage />;
+  const linkable = useContract(Linkable_address, Linkable_abi);
+
+  return (
+    <LinkableContext.Provider value={linkable}>
+      <Dapp />
+    </LinkableContext.Provider>
+  );
 }
 
 export default App;
