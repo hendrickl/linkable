@@ -2,10 +2,15 @@ export const Linkable_address = "0x58D68c269Be27375D567783BCF215679d12805B4";
 
 export const Linkable_abi = [
   {
-    inputs: [],
+    inputs: [
+      {
+        internalType: "address payable",
+        name: "projectAddr_",
+        type: "address",
+      },
+    ],
     stateMutability: "payable",
     type: "constructor",
-    payable: true,
   },
   {
     anonymous: false,
@@ -136,7 +141,6 @@ export const Linkable_abi = [
     ],
     stateMutability: "view",
     type: "function",
-    constant: true,
   },
   {
     inputs: [],
@@ -150,7 +154,6 @@ export const Linkable_abi = [
     ],
     stateMutability: "view",
     type: "function",
-    constant: true,
   },
   {
     inputs: [],
@@ -164,7 +167,6 @@ export const Linkable_abi = [
     ],
     stateMutability: "view",
     type: "function",
-    constant: true,
   },
   {
     inputs: [],
@@ -178,12 +180,10 @@ export const Linkable_abi = [
     ],
     stateMutability: "view",
     type: "function",
-    constant: true,
   },
   {
     stateMutability: "payable",
     type: "receive",
-    payable: true,
   },
   {
     inputs: [
@@ -203,7 +203,6 @@ export const Linkable_abi = [
     ],
     stateMutability: "view",
     type: "function",
-    constant: true,
   },
   {
     inputs: [
@@ -287,7 +286,6 @@ export const Linkable_abi = [
     ],
     stateMutability: "view",
     type: "function",
-    constant: true,
   },
   {
     inputs: [
